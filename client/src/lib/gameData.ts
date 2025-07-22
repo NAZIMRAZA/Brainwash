@@ -15,12 +15,12 @@ export const questions: Question[] = [
   // Questions 1-25: Correct answers are multiples of 2 (options 2, 4, 6)
   {
     id: 1,
-    text: "Which shape completes the sequence?",
-    description: "Select the image that logically continues the pattern.",
+    text: "Circle → Square → Triangle → ?",
+    description: "What shape comes next in this repeating pattern?",
     correctAnswer: 2,
     options: [
-      { emoji: "🔴", desc: "Red Circle" },
-      { emoji: "🔵", desc: "Blue Circle" },
+      { emoji: "🔴", desc: "Circle" },
+      { emoji: "⬜", desc: "Square" },
       { emoji: "🟢", desc: "Green Circle" },
       { emoji: "🟡", desc: "Yellow Circle" },
       { emoji: "🟣", desc: "Purple Circle" },
@@ -29,58 +29,58 @@ export const questions: Question[] = [
   },
   {
     id: 2,
-    text: "What comes next in this logical sequence?",
-    description: "Identify the pattern and select the next element.",
+    text: "2, 4, 8, 16, ?",
+    description: "Complete this number sequence (each number doubles).",
     correctAnswer: 4,
     options: [
-      { emoji: "📐", desc: "Triangle" },
-      { emoji: "🔷", desc: "Diamond" },
-      { emoji: "⭐", desc: "Star" },
-      { emoji: "⬜", desc: "Square" },
-      { emoji: "🔶", desc: "Rhombus" },
-      { emoji: "🔹", desc: "Blue Diamond" }
+      { emoji: "2️⃣0️⃣", desc: "20" },
+      { emoji: "2️⃣4️⃣", desc: "24" },
+      { emoji: "3️⃣0️⃣", desc: "30" },
+      { emoji: "3️⃣2️⃣", desc: "32" },
+      { emoji: "3️⃣6️⃣", desc: "36" },
+      { emoji: "4️⃣0️⃣", desc: "40" }
     ]
   },
   {
     id: 3,
-    text: "Which number logically fits the sequence?",
-    description: "Find the mathematical relationship.",
+    text: "Dog is to Puppy as Cat is to ?",
+    description: "Complete this analogy about animals and their young.",
     correctAnswer: 6,
     options: [
-      { emoji: "1️⃣", desc: "One" },
-      { emoji: "2️⃣", desc: "Two" },
-      { emoji: "3️⃣", desc: "Three" },
-      { emoji: "4️⃣", desc: "Four" },
-      { emoji: "5️⃣", desc: "Five" },
-      { emoji: "6️⃣", desc: "Six" }
+      { emoji: "🐱", desc: "Cat" },
+      { emoji: "🦁", desc: "Lion" },
+      { emoji: "🐅", desc: "Tiger" },
+      { emoji: "🐈", desc: "House Cat" },
+      { emoji: "🐆", desc: "Leopard" },
+      { emoji: "🐱", desc: "Kitten" }
     ]
   },
   {
     id: 4,
-    text: "Complete the visual analogy:",
-    description: "A:B as C:?",
+    text: "Hand is to Glove as Foot is to ?",
+    description: "Complete this analogy about body parts and clothing.",
     correctAnswer: 2,
     options: [
-      { emoji: "🌕", desc: "Full Moon" },
-      { emoji: "🌓", desc: "Half Moon" },
-      { emoji: "🌑", desc: "New Moon" },
-      { emoji: "🌘", desc: "Waning Moon" },
-      { emoji: "🌔", desc: "Waxing Moon" },
-      { emoji: "🌖", desc: "Gibbous Moon" }
+      { emoji: "🧦", desc: "Sock" },
+      { emoji: "👟", desc: "Shoe" },
+      { emoji: "👠", desc: "High Heel" },
+      { emoji: "🥾", desc: "Boot" },
+      { emoji: "🩴", desc: "Flip Flop" },
+      { emoji: "👡", desc: "Sandal" }
     ]
   },
   {
     id: 5,
-    text: "Which pattern continues the series?",
-    description: "Look for the underlying logic.",
+    text: "A, C, E, G, ?",
+    description: "What letter comes next? (skipping one letter each time)",
     correctAnswer: 4,
     options: [
-      { emoji: "◯", desc: "Circle" },
-      { emoji: "◢", desc: "Triangle" },
-      { emoji: "◼", desc: "Square" },
-      { emoji: "◆", desc: "Diamond" },
-      { emoji: "◈", desc: "Star" },
-      { emoji: "◎", desc: "Target" }
+      { emoji: "🇭", desc: "H" },
+      { emoji: "🇫", desc: "F" },
+      { emoji: "🇯", desc: "J" },
+      { emoji: "🇮", desc: "I" },
+      { emoji: "🇰", desc: "K" },
+      { emoji: "🇱", desc: "L" }
     ]
   },
   // Continue pattern for Q6-25 with correctAnswer being 2, 4, or 6
@@ -369,72 +369,72 @@ export const questions: Question[] = [
   // Questions 26-50: Correct answers are odd numbers (options 1, 3, 5)
   {
     id: 26,
-    text: "Complete the visual pattern:",
-    description: "Which image maintains the logical sequence?",
+    text: "If all roses are flowers, and this is a flower, what can we conclude?",
+    description: "Choose the most logical conclusion.",
     correctAnswer: 3,
     options: [
-      { emoji: "🌙", desc: "Moon" },
-      { emoji: "☀️", desc: "Sun" },
-      { emoji: "⭐", desc: "Star" },
-      { emoji: "🌎", desc: "Earth" },
-      { emoji: "🪐", desc: "Saturn" },
-      { emoji: "☄️", desc: "Comet" }
+      { emoji: "✅", desc: "It must be a rose" },
+      { emoji: "❌", desc: "It cannot be a rose" },
+      { emoji: "❓", desc: "It might or might not be a rose" },
+      { emoji: "🌹", desc: "All flowers are roses" },
+      { emoji: "🌸", desc: "No flowers are roses" },
+      { emoji: "🌺", desc: "Some flowers are roses" }
     ]
   },
   {
     id: 27,
-    text: "Which element continues the series?",
-    description: "Find the next logical step.",
+    text: "Monday, Wednesday, Friday, ?",
+    description: "What day comes next in this pattern? (every other day)",
     correctAnswer: 1,
     options: [
-      { emoji: "🔴", desc: "Red" },
-      { emoji: "🟠", desc: "Orange" },
-      { emoji: "🟡", desc: "Yellow" },
-      { emoji: "🟢", desc: "Green" },
-      { emoji: "🔵", desc: "Blue" },
-      { emoji: "🟣", desc: "Purple" }
+      { emoji: "📅", desc: "Sunday" },
+      { emoji: "📆", desc: "Tuesday" },
+      { emoji: "🗓️", desc: "Thursday" },
+      { emoji: "📋", desc: "Saturday" },
+      { emoji: "📊", desc: "Monday" },
+      { emoji: "📈", desc: "Wednesday" }
     ]
   },
   {
     id: 28,
-    text: "Select the matching pattern:",
-    description: "Which option fits the sequence?",
+    text: "Book is to Library as Medicine is to ?",
+    description: "Complete this analogy about items and their storage places.",
     correctAnswer: 5,
     options: [
-      { emoji: "🎯", desc: "Target" },
-      { emoji: "🎪", desc: "Circus" },
-      { emoji: "🎨", desc: "Art" },
-      { emoji: "🎭", desc: "Theater" },
-      { emoji: "🎲", desc: "Dice" },
-      { emoji: "🎰", desc: "Slots" }
+      { emoji: "🏥", desc: "Hospital" },
+      { emoji: "👨‍⚕️", desc: "Doctor" },
+      { emoji: "🩺", desc: "Stethoscope" },
+      { emoji: "🚑", desc: "Ambulance" },
+      { emoji: "💊", desc: "Pharmacy" },
+      { emoji: "🧪", desc: "Laboratory" }
     ]
   },
   {
     id: 29,
-    text: "What comes next?",
-    description: "Continue the logical progression.",
+    text: "1, 4, 9, 16, ?",
+    description: "What number comes next? (perfect squares: 1², 2², 3², 4², ?)",
     correctAnswer: 3,
     options: [
-      { emoji: "🍎", desc: "Apple" },
-      { emoji: "🍊", desc: "Orange" },
-      { emoji: "🍌", desc: "Banana" },
-      { emoji: "🍇", desc: "Grapes" },
-      { emoji: "🍓", desc: "Strawberry" },
-      { emoji: "🥝", desc: "Kiwi" }
+      { emoji: "2️⃣0️⃣", desc: "20" },
+      { emoji: "2️⃣4️⃣", desc: "24" },
+      { emoji: "2️⃣5️⃣", desc: "25" },
+      { emoji: "2️⃣8️⃣", desc: "28" },
+      { emoji: "3️⃣0️⃣", desc: "30" },
+      { emoji: "3️⃣2️⃣", desc: "32" }
     ]
   },
   {
     id: 30,
-    text: "Which shape completes the set?",
-    description: "Find the geometric relationship.",
+    text: "Apple, Banana, Cherry, ?",
+    description: "What fruit comes next? (alphabetical order)",
     correctAnswer: 1,
     options: [
-      { emoji: "⬛", desc: "Black Square" },
-      { emoji: "⬜", desc: "White Square" },
-      { emoji: "🔳", desc: "White Square Button" },
-      { emoji: "🔲", desc: "Black Square Button" },
-      { emoji: "◼️", desc: "Black Medium Square" },
-      { emoji: "◻️", desc: "White Medium Square" }
+      { emoji: "🥥", desc: "Date" },
+      { emoji: "🍇", desc: "Grape" },
+      { emoji: "🥝", desc: "Kiwi" },
+      { emoji: "🍋", desc: "Lemon" },
+      { emoji: "🥭", desc: "Mango" },
+      { emoji: "🍊", desc: "Orange" }
     ]
   },
   // Continue Q31-50 with correctAnswer being 1, 3, or 5
@@ -722,44 +722,44 @@ export const questions: Question[] = [
   // Questions 51-75: Correct answers are multiples of 3 (options 3, 6)
   {
     id: 51,
-    text: "What symbol completes this series?",
-    description: "Look for the underlying mathematical relationship.",
+    text: "3, 6, 12, 24, ?",
+    description: "What number comes next? (each number doubles)",
     correctAnswer: 6,
     options: [
-      { emoji: "🎯", desc: "Target" },
-      { emoji: "🎪", desc: "Circus" },
-      { emoji: "🎨", desc: "Art" },
-      { emoji: "🎭", desc: "Theater" },
-      { emoji: "🎪", desc: "Festival" },
-      { emoji: "🎲", desc: "Dice" }
+      { emoji: "3️⃣0️⃣", desc: "30" },
+      { emoji: "3️⃣6️⃣", desc: "36" },
+      { emoji: "4️⃣0️⃣", desc: "40" },
+      { emoji: "4️⃣2️⃣", desc: "42" },
+      { emoji: "4️⃣5️⃣", desc: "45" },
+      { emoji: "4️⃣8️⃣", desc: "48" }
     ]
   },
   {
     id: 52,
-    text: "Which element continues the pattern?",
-    description: "Find the next logical element.",
+    text: "Sun is to Day as Moon is to ?",
+    description: "Complete this analogy about celestial bodies and time.",
     correctAnswer: 3,
     options: [
-      { emoji: "🌍", desc: "Earth" },
-      { emoji: "🌎", desc: "Americas" },
-      { emoji: "🌏", desc: "Asia" },
-      { emoji: "🌕", desc: "Moon" },
-      { emoji: "☀️", desc: "Sun" },
-      { emoji: "⭐", desc: "Star" }
+      { emoji: "🌅", desc: "Dawn" },
+      { emoji: "🌇", desc: "Dusk" },
+      { emoji: "🌃", desc: "Night" },
+      { emoji: "⭐", desc: "Stars" },
+      { emoji: "🌌", desc: "Galaxy" },
+      { emoji: "☄️", desc: "Comet" }
     ]
   },
   {
     id: 53,
-    text: "Complete the technology sequence:",
-    description: "Which device belongs next?",
+    text: "Triangle has 3 sides, Square has 4 sides, Pentagon has ?",
+    description: "How many sides does a pentagon have?",
     correctAnswer: 6,
     options: [
-      { emoji: "📻", desc: "Radio" },
-      { emoji: "📺", desc: "TV" },
-      { emoji: "💻", desc: "Computer" },
-      { emoji: "📱", desc: "Phone" },
-      { emoji: "⌚", desc: "Watch" },
-      { emoji: "🕶️", desc: "AR Glasses" }
+      { emoji: "3️⃣", desc: "3 sides" },
+      { emoji: "4️⃣", desc: "4 sides" },
+      { emoji: "6️⃣", desc: "6 sides" },
+      { emoji: "7️⃣", desc: "7 sides" },
+      { emoji: "8️⃣", desc: "8 sides" },
+      { emoji: "5️⃣", desc: "5 sides" }
     ]
   },
   {
